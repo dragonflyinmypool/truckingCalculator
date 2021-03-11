@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tucking Income Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Income Calculator</h1>
+	<form id="calculator">
+		<label for="fname">Income per mile</label>
+  	<input type="text" id="ipm" name="ipm"><br>
+
+  	<label for="fname">Miles per week</label>
+  	<input type="text" id="mpw" name="mpw"><br>
+
+  	<label for="fname">Weeks per year</label>
+  	<input type="text" id="wpy" name="wpy"><br>
+
+	  <input type="submit" value="Submit"><br><br>
+
+  	<div>Yearly income</div><div id="resultBox">$<span id="resultsSpan"></span></div>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
